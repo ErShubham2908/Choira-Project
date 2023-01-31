@@ -1,7 +1,7 @@
 import './Style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpeaker } from '@fortawesome/free-solid-svg-icons'
-import { faMicrophone  } from '@fortawesome/free-solid-svg-icons'
+import { faMicrophone } from '@fortawesome/free-solid-svg-icons'
 
 function Footer(){
     return(
@@ -19,13 +19,6 @@ function Footer(){
                         </table>
                     </div>
                 </div>
-                <div className='footer-2'>
-                    <div className='endCall'>End Meeting</div>
-                    <div className='Operation'>
-                    <FontAwesomeIcon icon={faMicrophone} />
-                    {/* <FontAwesomeIcon icon={faSpeaker} /> */}
-                    </div>
-                </div> 
             </div>
         </>
     )
