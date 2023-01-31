@@ -2,6 +2,7 @@ import './Style.css';
 import mic from './Asset/Mic.png'
 import video from './Asset/Video.png'
 import speaker from './Asset/speaker.png'
+import loading from './Asset/threeDot.jpg'
 
 function Footer(){
     return(
@@ -23,6 +24,7 @@ function Footer(){
                     <span> <img src={mic} className="icon" /> </span>
                     <span> <img src={video} className="icon" /> </span>
                     <span> <img src={speaker} className="icon" /> </span>
+                    <span> <img src={loading} className="icon" /> </span>
                 </div>
             </div>
         </>

@@ -81,12 +81,12 @@ td{
 
 .addIcon{
     display: flex;
-    width: 700px;
+    width: 600px;
     height: 80px;
     /* border: 1px solid white; */
     position: absolute;
     bottom: 5px;
-    left: 650px;
+    left: 750px;
     box-sizing: border-box;
 }
 
@@ -101,10 +101,13 @@ td{
     background-color: red;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .icon{
     width: 50px;
     height: 50px;
     padding-left: 40px;
+    padding-top: 10px;
+    cursor: pointer;
 }
