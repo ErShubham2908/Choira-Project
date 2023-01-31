@@ -11,8 +11,7 @@ function Footer(){
                     <div className='first-footer'>
                         <table className='table'>
                             <td>0004<div>Bar</div></td>
-                            <td>0004 <div>Beat</div></td>
-                            
+                            <td>1 <div>Beat</div></td>
                             <td>-  120  + <div>Tempo</div></td>
                             
                             <td>4/4 <div>Cmaj</div> </td>
