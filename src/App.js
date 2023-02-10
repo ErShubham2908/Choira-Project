@@ -15,7 +15,7 @@ const App = () => {
     <>
       <div className='main_container'>
         <div className="heading">
-          <img src='https://choira.io/static/media/choria.96439620.svg' className="img" />
+          <img src='https://choira.io/static/media/choria.96439620.svg' alt="Not Found" className="img" />
           <select onChange={(e) => { setSelectedValue(e.target.value) }}>
             <option value="component1">1</option>
             <option value="component2">2</option>

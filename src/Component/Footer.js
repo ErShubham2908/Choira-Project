@@ -20,10 +20,10 @@ function Footer(){
                     </div>
                 <div className='addIcon'>
                     <span className="end-Meeting">End Meeting</span>
-                    <span> <img src={mic} className="icon" /> </span>
-                    <span> <img src={video} className="icon" /> </span>
-                    <span> <img src={speaker} className="icon" /> </span>
-                    <span> <img src={loading} className="icon" /> </span>
+                    <span> <img src={mic} className="icon" alt='Not Found' /> </span>
+                    <span> <img src={video} className="icon" alt='Not Found' /> </span>
+                    <span> <img src={speaker} className="icon" alt='Not Found' /> </span>
+                    <span> <img src={loading} className="icon" alt='Not Found' /> </span>
                 </div>
             </div>
         </>
